@@ -4,7 +4,7 @@
 
 - [👨‍💻 01. Install SonarQube 7.2 (feature/01-Install-7.2)](#-01-install-sonarqube-72-feature01-install-72)
 - [👨‍💻 02. Install SonarQube 8.4 and 9.7 (feature/02-Install-8.4-and-9.7)](#-02-install-sonarqube-84-and-97-feature02-install-84-and-97)
-
+- [👨‍💻 03. Install SonarQube 10.2 and 10.6 (feature/03-Install-10.2-and-10.6)](#-03-install-sonarqube-102-and-106-feature03-install-102-and-106)
 
 
 ## 👨‍💻 01. Install SonarQube 7.2 (feature/01-Install-7.2)
@@ -140,5 +140,83 @@ http://localhost:9000/
 
 Login: admin/admin
 
+
+
+## 👨‍💻 03. Install SonarQube 10.2 and 10.6 (feature/03-Install-10.2-and-10.6)
+
+Search: sonarqube setup and upgrade Install the server > Install the server > Example Docker Compose configuration    
+Copy and Save the docker-compose.yml file example   
+
+After "SONAR_JDBC_PASSWORD: sonar", add:   
+```
+SONAR_SEARCH_JAVAADDITIONALOPTS: "-Dnode.store.allow_mmap=false -Ddiscovery.type=single-node"
+```
+
+After "postgresql_data:/var/lib/postgresql/data", add:   
+```
+    ports:
+    - "5432:5432"
+```  
+
+For version 10.6:
+```
+image: sonarqube:10.6.0-community
+
+...
+
+image: postgres:14-alpine
+```
+
+
+Like this:
+```
+version: "3"
+
+services:
+  sonarqube:
+    image: sonarqube:10.2-community
+    depends_on:
+      - db
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonar
+      SONAR_JDBC_USERNAME: sonar
+      SONAR_JDBC_PASSWORD: sonar
+      SONAR_SEARCH_JAVAADDITIONALOPTS: "-Dnode.store.allow_mmap=false -Ddiscovery.type=single-node"
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_logs:/opt/sonarqube/logs
+    ports:
+      - "9000:9000"
+  db:
+    image: postgres:12
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+    volumes:
+      - postgresql:/var/lib/postgresql
+      - postgresql_data:/var/lib/postgresql/data
+    ports:
+    - "5432:5432"
+
+volumes:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:
+  postgresql:
+  postgresql_data:
+```
+
+Open Powershell and go to `docker-compose.yml` folder: `cd D:\...\03-SonarQube-10.2-10.6\10.2` or `cd D:\...\03-SonarQube-10.2-10.6\10.6`   
+```
+docker compose up -d
+docker container ls
+```
+
+http://localhost:9000/
+
+Login: admin/admin
+
+`docker compose down`
 
 
