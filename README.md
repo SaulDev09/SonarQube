@@ -2,9 +2,111 @@
 
 ## Index
 
+
+- [👨‍💻 00. Basic Concepts (feature/00-BasicConcepts)](#-00-basic-concepts-feature00-basicconcepts)
 - [👨‍💻 01. Install SonarQube 7.2 (feature/01-Install-7.2)](#-01-install-sonarqube-72-feature01-install-72)
 - [👨‍💻 02. Install SonarQube 8.4 and 9.7 (feature/02-Install-8.4-and-9.7)](#-02-install-sonarqube-84-and-97-feature02-install-84-and-97)
 - [👨‍💻 03. Install SonarQube 10.2 and 10.6 (feature/03-Install-10.2-and-10.6)](#-03-install-sonarqube-102-and-106-feature03-install-102-and-106)
+
+## 👨‍💻 00. Basic Concepts (feature/00-BasicConcepts)
+
+### Features
+
+**1. Continuous Inspection**
+- **Overall health:** View the code status on a single page: Code Smells (maintainability), Bugs (reliability), Vulnerability (security)
+- **Leak Period** Quality of new and modified code should be monitored first
+- **Quality Gate:** Don't make it worse
+- **Drill down into issues:** Issue details, Person, when, Line
+- **Hot Spots:** Highlight files indicating they need attention
+- **History information**
+
+**2. Detect difficult issues**   
+- **Detect errors**   
+- **Code Smells:** Code that is difficult to maintain, causing unintentional errors   
+- **Vulnerability:** Track insecurities, SQL injection, etc.   
+- Trigger necessary rules   
+- Explore execution paths   
+
+**3. Multi-language:** C, C++, Javascript, C#, VB.Net, Java, PHP, etc.   
+**4. DevOps Integration:** Maven, Apache ANT, Gradle, MSBuild; Jenkins, TFS, AppVeyor; Pass Notifications, Pipelines   
+**5. Centralize quality:**
+- View and escalate code quality in a single view
+- Share rules between users
+- Unified Quality Gate, applying the same quality requirements across all projects
+- Risk-based views, assessing reliability, security, and maintainability
+
+### Metric Categories
+
+- **Reliability**
+  **Bugs:** Number of Bugs   
+  **Remediation Effort:** Effort to solve all issues   
+
+  | Rating | Value |
+  |---|-------------|
+  | A | 0 Bugs |
+  | B | +1 Minor bug |
+  | C | +1 Major bug |
+  | D | +1 Critical bug |
+  | E | +1 Blocking bug |
+
+- **Security**   
+  **Vulnerabilities:** number of vulnerability issues   
+  **Hotspots:** number of critical security points   
+  **Remediation Effort:** Effort to solve all security issues   
+
+  | Rating | Value |
+  |---|-------------|
+  | A | >= 80% |
+  | B | < 80% and >=70 |
+  | C | < 70% and >=50 |
+  | D | < 50% and >=30 |
+  | E | < 30% |
+
+- **Maintainability:**   
+  **Code Smells:** Total number of Issues affecting maintainability   
+  **Technical Debt:** Sum of the costs of remediating code smells   
+
+  | Rating | Value |
+  |---|-------------|
+  | A | 0.00 - 0.05 |
+  | B | 0.06 - 0.10 |
+  | C | 0.11 - 0.20 |
+  | D | 0.21 - 0.50 |
+  | E | 0.51 - 1.00 |
+
+- **Coverage:**   
+  **Line Coverage:** Density of lines of code covered by unit tests   
+  **Uncovered Lines:** Number of lines of code uncovered by unit tests   
+  **Unit tests:** Number of unit tests  
+  **Uncovered conditions:** Number of conditions not covered by unit tests  
+  **Unit Test Errors:** The number of unit tests that have failed  
+- **Duplications:** Blocks, files, lines, %  
+- **Complexity:**   
+  **Cyclomatic Complexity:** Quantitative metric used to calculate the number of paths traversed by the code.   
+  **Cognitive complexity:** Metric that allows you to rate how difficult it is to understand the control flow of the code.   
+- **Size**   
+  **Classes:** Number of classes (nested, interfaces, enums, annotations)   
+  **Commented Lines:** Comments and commented code   
+  % Comments, Files, Lines of code, Functions, Projects   
+- **Issues:** New Issues, Issues, False Positive Issues, Open Issues, Accepted Issues, Reopened Issues   
+
+**Dashboard**  
+ 1. **Projects:**  
+  Global vision  
+  Quality Gates  
+  Security (Vulnerability)  
+  Reliability (Bugs)  
+  Maintainability (Code Smells)  
+  Hotspots Reviewed  
+  Coverage  
+  Duplications  
+
+2. **Issues:** Problems by project
+3. **Rules:** Rules by programming language
+4. **Quality Profiles:** Custom rules
+5. **Quality Gates:** Acceptable thresholds to determine whether the project passes or fails
+6. **Administration:** Users, Roles, Security, Project, Configurations, Marketplace
+
 
 
 ## 👨‍💻 01. Install SonarQube 7.2 (feature/01-Install-7.2)
