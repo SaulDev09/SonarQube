@@ -7,6 +7,9 @@
 - [👨‍💻 01. Install SonarQube 7.2 (feature/01-Install-7.2)](#-01-install-sonarqube-72-feature01-install-72)
 - [👨‍💻 02. Install SonarQube 8.4 and 9.7 (feature/02-Install-8.4-and-9.7)](#-02-install-sonarqube-84-and-97-feature02-install-84-and-97)
 - [👨‍💻 03. Install SonarQube 10.2 and 10.6 (feature/03-Install-10.2-and-10.6)](#-03-install-sonarqube-102-and-106-feature03-install-102-and-106)
+- [👨‍💻 04. SonarQube and SonarScanner (feature/04-SonarQube-SonarScanner)](#-04-sonarqube-and-sonarscanner-feature04-sonarqube-sonarscanner)
+
+
 
 ## 👨‍💻 00. Basic Concepts (feature/00-BasicConcepts)
 
@@ -320,5 +323,63 @@ http://localhost:9000/
 Login: admin/admin
 
 `docker compose down`
+
+
+## 👨‍💻 04. SonarQube and SonarScanner (feature/04-SonarQube-SonarScanner)
+
+**SonarQube Scanner with SonarQube Server v10.6 | Locally**   
+Initial Configuration
+1. Set JAVA_HOME as Environment variable
+2. Search, Download and Configure Sonar-scanner-msbuild /  Sonar-scanner-msbuild-netcoreapp / dotnet-sonarscanner and SDK (x64)
+
+    2.1. **.NET Framework Version**   
+        Search: `SonarScanner for .NET`   
+        Download: `.NET Framework 4.6.2+`   
+        Add the directory containing SonarScanner.MSBuild.exe to the %PATH% environment variable > Path (Modify)   
+
+    2.2. **.NET Core Version**       
+        `dotnet tool install --global dotnet-sonarscanner`
+
+3. Create project in Dashboard   
+    http://localhost:9000/   
+    Administration > Projects > Management > Create Project >   
+      Project display name* / Project key* (`name + Id`) / Main branch name*, Next >   
+      Use the global setting > Create project   
+      Analysis Method: Locally   
+      Analyze your project: Generate a project token or Use existing token > Continue > ".Net" > .Net Core | .Net Framework
+
+4. Sonar Scanner:
+    Execute the following commands at the root of your solution.    
+
+    4.1. **.NET Framework Version**   
+    `cd D:\...\04-SampleProject\ContosoUniversity-4.8`   
+    Use `Developer Command Prompt`
+    `SonarScanner.MSBuild.exe begin /k:"PROJECT_ID"  /d:sonar.token="your_generated_token_here"`
+
+    ```    
+    SonarScanner.MSBuild.exe begin /k:"AppContosoUnivID" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+    MSBuild.exe /t:Rebuild
+    SonarScanner.MSBuild.exe end /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+    ```
+
+    4.2. ** .NET Core Version**   
+    `cd D:\...\04-SampleProject\eShopOnWeb-2.1`   
+    `cd D:\...\04-SampleProject\Net-DDD-6.0-f-29-Test`   
+    The following commands are not exclusive to the `Developer Command Prompt`   
+    `dotnet sonarscanner begin /k:"ProjectKey" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="your_generated_token_here"`
+
+    ```
+    dotnet sonarscanner begin /k:"eShopOnWebId" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+    dotnet sonarscanner begin /k:"Net-DDDId" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+    dotnet build
+    dotnet sonarscanner end /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+    ```
+    
+    Go to Dashboard `http://localhost:9000"`
+
+4. Inspect Source code
+5. Interpret results in the Dashboard
+6. Fix and try again
+7. Review and compare results in the Dashboard
 
 

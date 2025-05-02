@@ -1,0 +1,15 @@
+﻿C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\CatalogContext.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\CatalogContextSeed.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\EfRepository.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\Migrations\20171018175735_Initial.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\Migrations\20171018175735_Initial.Designer.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\Migrations\CatalogContextModelSnapshot.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Data\OrderRepository.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\AppIdentityDbContext.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\AppIdentityDbContextSeed.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\ApplicationUser.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\Migrations\20170822214310_InitialIdentityModel.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\Migrations\20170822214310_InitialIdentityModel.Designer.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Identity\Migrations\AppIdentityDbContextModelSnapshot.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Logging\LoggerAdapter.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Infrastructure\Services\EmailSender.cs

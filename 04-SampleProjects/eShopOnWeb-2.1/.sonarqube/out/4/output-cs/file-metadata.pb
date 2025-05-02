@@ -1,0 +1,12 @@
+Ö
+yC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.Program.csutf-16â
+~C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.csutf-8ü
+ìC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\obj\Debug\netcoreapp2.1\.NETCoreApp,Version=v2.1.AssemblyAttributes.csutf-8n
+eC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\Builders\OrderBuilder.csutf-8p
+gC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\Builders\AddressBuilder.csutf-8ô
+èC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Specifications\CatalogFilterSpecificationFilter.csutf-8ï
+ãC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Specifications\BasketWithItemsSpecification.csutf-8î
+äC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Services\BasketServiceTests\TransferBasket.csutf-8ì
+âC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Services\BasketServiceTests\SetQuantities.csutf-8Ç
+yC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Entities\OrderTests\Total.csutf-8Ö
+|C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\UnitTests\ApplicationCore\Entities\BasketTests\AddItem.csutf-8

@@ -1,0 +1,3 @@
+…
+rC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\Net-DDD-6.0-f-29-Test\Saul.Test.Application.Main\UsersApplication.cs 8r5	 !"#$&'()*+,-./0123456789:xÇ!"#()*+/0457˘
+vC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\Net-DDD-6.0-f-29-Test\Saul.Test.Application.Main\CustomersApplication.csB 8rØ	 !"#$%&'()*+,-/0123456789:;<=>?@ABDEFGHIKLMNOPQRSTUVWYZ[\]^_`abcdefghijklnopqrstuvwxyz{|}~ÄÅÇÑÖáàâäãåçéèêíìîïñóòôöõúùûxÇB !#$)*,45689>?AIKMNSTV^_`bchikstuwxy~Åäãåéèêíìòôõ

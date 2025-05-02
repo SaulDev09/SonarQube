@@ -1,0 +1,3952 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.13.0.0",
+        "fileVersion": "4.13.0-3.25155.17 (398aa319)",
+        "semanticVersion": "4.13.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/_ViewStart.cshtml.g.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 67,
+                  "endLine": 39,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_ViewImports.cshtml.g.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 67,
+                  "endLine": 43,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/_ViewImports.cshtml.g.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 67,
+                  "endLine": 38,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Basket/Checkout.cshtml.g.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 231,
+                  "endLine": 74,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_StatusMessage.cshtml.g.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 67,
+                  "endLine": 50,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Error.cshtml.g.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 67,
+                  "endLine": 39,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Components/Basket/Default.cshtml.g.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 231,
+                  "endLine": 95,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Basket/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 262,
+                  "startColumn": 241,
+                  "endLine": 262,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Basket/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 234,
+                  "endLine": 288,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 240,
+                  "endLine": 83,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 241,
+                  "endLine": 101,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 241,
+                  "endLine": 141,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 241,
+                  "endLine": 169,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_ManageNav.cshtml.g.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 231,
+                  "endLine": 86,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_ManageNav.cshtml.g.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 231,
+                  "endLine": 120,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_ManageNav.cshtml.g.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 231,
+                  "endLine": 154,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Order/Detail.cshtml.g.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 67,
+                  "endLine": 39,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 231,
+                  "endLine": 79,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 46,
+                  "endLine": 109,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Disable2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 231,
+                  "endLine": 105,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Disable2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 234,
+                  "endLine": 127,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.g.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 67,
+                  "endLine": 44,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_pagination.cshtml.g.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 231,
+                  "endLine": 76,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_pagination.cshtml.g.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 232,
+                  "endLine": 172,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Order/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 231,
+                  "endLine": 164,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Order/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 232,
+                  "endLine": 212,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 237,
+                  "endLine": 105,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 240,
+                  "endLine": 131,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 234,
+                  "endLine": 157,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 239,
+                  "endLine": 183,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 240,
+                  "endLine": 209,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 234,
+                  "endLine": 235,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 239,
+                  "endLine": 261,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 292,
+                  "startColumn": 238,
+                  "endLine": 292,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Signin.cshtml.g.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 236,
+                  "endLine": 359,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ResetAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 234,
+                  "endLine": 106,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 237,
+                  "endLine": 101,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 239,
+                  "endLine": 127,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 234,
+                  "endLine": 152,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 239,
+                  "endLine": 179,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 236,
+                  "endLine": 228,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_product.cshtml.g.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 233,
+                  "endLine": 125,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_product.cshtml.g.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 234,
+                  "endLine": 154,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_product.cshtml.g.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 234,
+                  "endLine": 183,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_product.cshtml.g.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 234,
+                  "endLine": 212,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 231,
+                  "endLine": 86,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 237,
+                  "endLine": 113,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 240,
+                  "endLine": 139,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 234,
+                  "endLine": 165,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 239,
+                  "endLine": 191,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 240,
+                  "endLine": 217,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 234,
+                  "endLine": 243,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 239,
+                  "endLine": 269,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 240,
+                  "endLine": 295,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 234,
+                  "endLine": 321,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 347,
+                  "startColumn": 239,
+                  "endLine": 347,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Register.cshtml.g.cs",
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 236,
+                  "endLine": 381,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 233,
+                  "endLine": 101,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 237,
+                  "endLine": 125,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 237,
+                  "endLine": 167,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 233,
+                  "endLine": 210,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 232,
+                  "endLine": 281,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 240,
+                  "endLine": 160,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 234,
+                  "endLine": 189,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 239,
+                  "endLine": 216,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 238,
+                  "endLine": 242,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 291,
+                  "startColumn": 236,
+                  "endLine": 291,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 231,
+                  "endLine": 90,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 237,
+                  "endLine": 122,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 240,
+                  "endLine": 148,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 234,
+                  "endLine": 173,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 239,
+                  "endLine": 199,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 240,
+                  "endLine": 225,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 234,
+                  "endLine": 250,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 239,
+                  "endLine": 276,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 325,
+                  "startColumn": 236,
+                  "endLine": 325,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 240,
+                  "endLine": 86,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 240,
+                  "endLine": 120,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 232,
+                  "endLine": 183,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 232,
+                  "endLine": 223,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 232,
+                  "endLine": 259,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 233,
+                  "endLine": 104,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 238,
+                  "endLine": 131,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 240,
+                  "endLine": 157,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 234,
+                  "endLine": 182,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 239,
+                  "endLine": 209,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 238,
+                  "endLine": 240,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 232,
+                  "endLine": 334,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWith2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 236,
+                  "endLine": 375,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 231,
+                  "endLine": 101,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 237,
+                  "endLine": 133,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 240,
+                  "endLine": 159,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 234,
+                  "endLine": 184,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 239,
+                  "endLine": 210,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 240,
+                  "endLine": 236,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 234,
+                  "endLine": 261,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 239,
+                  "endLine": 287,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 313,
+                  "startColumn": 240,
+                  "endLine": 313,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 338,
+                  "startColumn": 234,
+                  "endLine": 338,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 239,
+                  "endLine": 364,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 413,
+                  "startColumn": 236,
+                  "endLine": 413,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 231,
+                  "endLine": 109,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 231,
+                  "endLine": 142,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 232,
+                  "endLine": 187,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 232,
+                  "endLine": 219,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 232,
+                  "endLine": 242,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 284,
+                  "startColumn": 232,
+                  "endLine": 284,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 318,
+                  "startColumn": 232,
+                  "endLine": 318,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 232,
+                  "endLine": 341,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 377,
+                  "startColumn": 236,
+                  "endLine": 377,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 237,
+                  "endLine": 125,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 237,
+                  "endLine": 144,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 237,
+                  "endLine": 185,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 237,
+                  "endLine": 213,
+                  "endColumn": 239
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 233,
+                  "endLine": 260,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 233,
+                  "endLine": 279,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 233,
+                  "endLine": 298,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 233,
+                  "endLine": 317,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 233,
+                  "endLine": 336,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 233,
+                  "endLine": 355,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 236,
+                  "endLine": 394,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 417,
+                  "startColumn": 236,
+                  "endLine": 417,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 245,
+                  "endLine": 470,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 245,
+                  "endLine": 488,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 506,
+                  "startColumn": 245,
+                  "endLine": 506,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 557,
+                  "startColumn": 245,
+                  "endLine": 557,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 583,
+                  "startColumn": 245,
+                  "endLine": 583,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 609,
+                  "startColumn": 245,
+                  "endLine": 609,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 231,
+                  "endLine": 104,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 238,
+                  "endLine": 136,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 240,
+                  "endLine": 162,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 234,
+                  "endLine": 187,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 240,
+                  "endLine": 216,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 234,
+                  "endLine": 251,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 234,
+                  "endLine": 288,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 241,
+                  "endLine": 314,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 239,
+                  "endLine": 346,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 240,
+                  "endLine": 372,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 397,
+                  "startColumn": 234,
+                  "endLine": 397,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 423,
+                  "startColumn": 239,
+                  "endLine": 423,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 472,
+                  "startColumn": 236,
+                  "endLine": 472,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_SetPassword.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/SetPassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 24,
+                  "endLine": 54,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_LoginWithRecoveryCode.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/LoginWithRecoveryCode.cshtml.g.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 24,
+                  "endLine": 49,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage__Layout.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 24,
+                  "endLine": 50,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_Disable2fa.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/Disable2fa.cshtml.g.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 24,
+                  "endLine": 52,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_EnableAuthenticator.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/EnableAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 24,
+                  "endLine": 55,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Basket_Index.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Basket/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 24,
+                  "endLine": 61,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Shared__LoginPartial.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 24,
+                  "endLine": 58,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_ResetAuthenticator.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ResetAuthenticator.cshtml.g.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 24,
+                  "endLine": 51,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Basket_Checkout.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Basket/Checkout.cshtml.g.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 24,
+                  "endLine": 45,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Shared__Layout.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 24,
+                  "endLine": 74,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_TwoFactorAuthentication.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/TwoFactorAuthentication.cshtml.g.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 24,
+                  "endLine": 55,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Shared__ValidationScriptsPartial.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 24,
+                  "endLine": 57,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage_ChangePassword.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/ChangePassword.cshtml.g.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 24,
+                  "endLine": 54,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Index.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 24,
+                  "endLine": 48,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Account_Manage__ManageNav.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Account/Manage/_ManageNav.cshtml.g.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 24,
+                  "endLine": 52,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Shared__product.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Shared/_product.cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 24,
+                  "endLine": 57,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "Le champ 'Pages_Components_Basket_Default.__tagHelperStringValueBuffer' n'est jamais utilisé",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/obj/Debug/netcoreapp2.1/Razor/Pages/Components/Basket/Default.cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 24,
+                  "endLine": 57,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S4143",
+          "level": "warning",
+          "message": "Verify this is the index/key that was intended; a value has already been set for it.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/Pages/Order/Detail.cshtml",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 5,
+                  "endLine": 7,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/Pages/Order/Detail.cshtml",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 5,
+                  "endLine": 4,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RenderSectionAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/Pages/Account/Manage/_Layout.cshtml",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 6,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RenderSectionAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/WebRazorPages/Pages/Shared/_Layout.cshtml",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 6,
+                  "endLine": 74,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Le champ n'est jamais utilisé",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S4143": {
+          "id": "S4143",
+          "shortDescription": "Collection elements should not be replaced unconditionally",
+          "fullDescription": "Storing a value inside a collection at a given key or index and then unconditionally overwriting it without reading the initial value is a case of a \"dead store\".",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4143",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

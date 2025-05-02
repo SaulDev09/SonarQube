@@ -1,0 +1,127 @@
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.DepartmentSP.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.RowVersion.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Inheritance.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.AssemblyReference.cache
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.DepartmentSP.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.RowVersion.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Inheritance.resources
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoU.2F40B0B5.Up2Date
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\01S\03_c_ex\35-SonarQube\03-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.AssemblyReference.cache
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.DepartmentSP.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.RowVersion.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Inheritance.resources
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoU.2F40B0B5.Up2Date
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\01S\03_c_ex\35-SonarQube\04-SampleProject\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb

@@ -1,0 +1,1 @@
+Roslyn version: 4.13.0.0Language version: CSharp7_3!Concurrent execution: enabled£žFile 'C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\src\Web\obj\Debug\netcoreapp2.1\Web.RazorTargetAssemblyInfo.cs' was recognized as generated
