@@ -8,7 +8,7 @@
 - [👨‍💻 02. Install SonarQube 8.4 and 9.7 (feature/02-Install-8.4-and-9.7)](#-02-install-sonarqube-84-and-97-feature02-install-84-and-97)
 - [👨‍💻 03. Install SonarQube 10.2 and 10.6 (feature/03-Install-10.2-and-10.6)](#-03-install-sonarqube-102-and-106-feature03-install-102-and-106)
 - [👨‍💻 04. SonarQube and SonarScanner (feature/04-SonarQube-SonarScanner)](#-04-sonarqube-and-sonarscanner-feature04-sonarqube-sonarscanner)
-
+- [👨‍💻 05. Coverage (feature/05-Coverage)](#-05-coverage-feature05-coverage)
 
 
 ## 👨‍💻 00. Basic Concepts (feature/00-BasicConcepts)
@@ -381,5 +381,41 @@ Initial Configuration
 5. Interpret results in the Dashboard
 6. Fix and try again
 7. Review and compare results in the Dashboard
+
+
+## 👨‍💻 05. Coverage (feature/05-Coverage)
+
+### SonarServer ###
+1. Run Docker Desktop
+2. Run SonarServer
+    ```
+    cd D:\...\03-SonarQube-10.2-10.6\10.6
+    docker compose up -d
+    ```
+
+3. Create project:
+http://localhost:9000 > Administration > Projects > Management > Create Project
+
+### Coverage ###
+dotnet tool install --global dotnet-coverage --version 17.14.2
+
+Add:
+```
+/d: sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+...
+dotnet-coverage collect 'dotnet test' -f xml -o 'coverage.xml'
+```
+
+
+Execute the following commands at the root of your solution.    
+```
+cd D:\...\04-SampleProject\Net-DDD-6.0-f-29-Test
+dotnet sonarscanner begin /k:"Net-DDD-CoverageId" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+dotnet build --no-incremental
+dotnet-coverage collect 'dotnet test' -f xml -o 'coverage.xml'
+dotnet sonarscanner end /d:sonar.token="sqa_e333ace7e65fe9c4c78fe94658ec53aa8fa87785"
+```
+
+
 
 
