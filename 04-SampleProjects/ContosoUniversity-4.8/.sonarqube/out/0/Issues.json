@@ -1,0 +1,3757 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.12.0.0",
+        "fileVersion": "4.12.0-3.24631.1 (da7c6c42)",
+        "semanticVersion": "4.12.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/App_Start/BundleConfig.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/App_Start/RouteConfig.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/App_Start/FilterConfig.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/CourseController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 69,
+                  "endLine": 17,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/CourseController.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 49,
+                  "endLine": 30,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/HomeController.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 13,
+                  "endLine": 27,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 17,
+                  "endLine": 42,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 13,
+                  "endLine": 64,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_logger' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 25,
+                  "endLine": 17,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'db' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 31,
+                  "endLine": 18,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'db' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 31,
+                  "endLine": 18,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'db' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/StudentController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 31,
+                  "endLine": 18,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'db' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/HomeController.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 31,
+                  "endLine": 14,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_logger' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorLogging.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 25,
+                  "endLine": 16,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'Edit' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 29,
+                  "endLine": 106,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 29,
+                  "endLine": 146,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Details'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/CourseController.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 29,
+                  "endLine": 131,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/CourseController.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 29,
+                  "endLine": 35,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Student' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 33,
+                  "endLine": 10,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 25,
+                  "endLine": 67,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 25,
+                  "endLine": 68,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 25,
+                  "endLine": 85,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 25,
+                  "endLine": 86,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 33,
+                  "endLine": 93,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'FirstName' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 79,
+                  "endLine": 10,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 40,
+                  "endLine": 68,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 40,
+                  "endLine": 85,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 54,
+                  "endLine": 93,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Enrollment' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 28,
+                  "endLine": 13,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 27,
+                  "endLine": 34,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 25,
+                  "endLine": 35,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Department' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 17,
+                  "endLine": 12,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 57,
+                  "endLine": 70,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 58,
+                  "endLine": 77,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 28,
+                  "endLine": 78,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 23,
+                  "endLine": 83,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 23,
+                  "endLine": 92,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'StudentID' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 46,
+                  "endLine": 13,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 49,
+                  "endLine": 14,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 45,
+                  "endLine": 34,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 43,
+                  "endLine": 35,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Instructor' 8 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 29,
+                  "endLine": 22,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 33
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 29,
+                  "endLine": 44,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 29,
+                  "endLine": 56,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 68,
+                  "endLine": 75,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 62,
+                  "endLine": 78,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 68,
+                  "endLine": 79,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 23,
+                  "endLine": 91,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Person' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 25,
+                  "endLine": 19,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 24,
+                  "endLine": 29,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 58,
+                  "endLine": 34,
+                  "endColumn": 70
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 25,
+                  "endLine": 52,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 24,
+                  "endLine": 53,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 24,
+                  "endLine": 54,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411022351064_Inheritance.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 31,
+                  "endLine": 55,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.OfficeAssignment' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 17,
+                  "endLine": 37,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 28,
+                  "endLine": 79,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 23,
+                  "endLine": 82,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 23,
+                  "endLine": 90,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.CourseInstructor' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 17,
+                  "endLine": 48,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 28,
+                  "endLine": 75,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 28,
+                  "endLine": 76,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 23,
+                  "endLine": 80,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 23,
+                  "endLine": 81,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 23,
+                  "endLine": 89,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Course' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 29,
+                  "endLine": 55,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 23,
+                  "endLine": 63,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 25,
+                  "endLine": 66,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 25,
+                  "endLine": 69,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 27,
+                  "endLine": 70,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 64,
+                  "endLine": 76,
+                  "endColumn": 76
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 28,
+                  "endLine": 77,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 23,
+                  "endLine": 84,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 25,
+                  "endLine": 87,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 24,
+                  "endLine": 88,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'DepartmentID' 7 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 37,
+                  "endLine": 63,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 39,
+                  "endLine": 69,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 41,
+                  "endLine": 70,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 75,
+                  "endLine": 70,
+                  "endColumn": 89
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 42,
+                  "endLine": 77,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 45,
+                  "endLine": 84,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 38,
+                  "endLine": 88,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'InstructorID' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 52,
+                  "endLine": 75,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 46,
+                  "endLine": 78,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 52,
+                  "endLine": 79,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 55,
+                  "endLine": 80,
+                  "endColumn": 69
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 55,
+                  "endLine": 82,
+                  "endColumn": 69
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021841373_ComplexDataModel.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 49,
+                  "endLine": 83,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Student' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021834484_MaxLengthOnNames.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 25,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021834484_MaxLengthOnNames.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 25,
+                  "endLine": 11,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021834484_MaxLengthOnNames.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 25,
+                  "endLine": 16,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021834484_MaxLengthOnNames.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 25,
+                  "endLine": 17,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Course' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 17,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 29,
+                  "endLine": 30,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 58,
+                  "endLine": 51,
+                  "endColumn": 70
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 23,
+                  "endLine": 56,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Enrollment' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 17,
+                  "endLine": 21,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 28,
+                  "endLine": 50,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 28,
+                  "endLine": 51,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 23,
+                  "endLine": 52,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 23,
+                  "endLine": 53,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 23,
+                  "endLine": 55,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'FullName' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 73,
+                  "endLine": 52,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 73,
+                  "endLine": 70,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 73,
+                  "endLine": 86,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 77,
+                  "endLine": 111,
+                  "endColumn": 87
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 73,
+                  "endLine": 164,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Student' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 29,
+                  "endLine": 31,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 17,
+                  "endLine": 36,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 59,
+                  "endLine": 50,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/201411021828194_InitialCreate.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 23,
+                  "endLine": 54,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Details'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/StudentController.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 29,
+                  "endLine": 114,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/StudentController.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 29,
+                  "endLine": 68,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Index' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 41,
+                  "endLine": 67,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 45,
+                  "endLine": 122,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 45,
+                  "endLine": 180,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 41,
+                  "endLine": 207,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Current value: ' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 62,
+                  "endLine": 139,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 64,
+                  "endLine": 142,
+                  "endColumn": 81
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 67,
+                  "endLine": 145,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 70,
+                  "endLine": 148,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Details'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 29,
+                  "endLine": 216,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 29,
+                  "endLine": 59,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Alexander' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 69,
+                  "endLine": 22,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 68,
+                  "endLine": 142,
+                  "endColumn": 79
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 68,
+                  "endLine": 147,
+                  "endColumn": 79
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 68,
+                  "endLine": 152,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Alonso' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 69,
+                  "endLine": 24,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 69,
+                  "endLine": 157,
+                  "endColumn": 77
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 69,
+                  "endLine": 162,
+                  "endColumn": 77
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 68,
+                  "endLine": 167,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Abercrombie' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 71,
+                  "endLine": 46,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 76,
+                  "endLine": 64,
+                  "endColumn": 89
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 59,
+                  "endLine": 134,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 58,
+                  "endLine": 135,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Fakhouri' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 71,
+                  "endLine": 48,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 76,
+                  "endLine": 67,
+                  "endColumn": 86
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 75,
+                  "endLine": 115,
+                  "endColumn": 85
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 56,
+                  "endLine": 132,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Harui' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 71,
+                  "endLine": 50,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 76,
+                  "endLine": 70,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 75,
+                  "endLine": 118,
+                  "endColumn": 82
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 57,
+                  "endLine": 128,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 60,
+                  "endLine": 133,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Kapoor' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 71,
+                  "endLine": 52,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 76,
+                  "endLine": 73,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 75,
+                  "endLine": 121,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 57,
+                  "endLine": 127,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal '2007-09-01' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 48,
+                  "endLine": 63,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 48,
+                  "endLine": 66,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 48,
+                  "endLine": 69,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 48,
+                  "endLine": 72,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Chemistry' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 54,
+                  "endLine": 80,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 44,
+                  "endLine": 127,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 44,
+                  "endLine": 128,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 63,
+                  "endLine": 143,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 63,
+                  "endLine": 173,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 63,
+                  "endLine": 182,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Microeconomics' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 54,
+                  "endLine": 84,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 44,
+                  "endLine": 129,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 63,
+                  "endLine": 148,
+                  "endColumn": 79
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 63,
+                  "endLine": 177,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Composition' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 54,
+                  "endLine": 100,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 44,
+                  "endLine": 134,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 63,
+                  "endLine": 168,
+                  "endColumn": 76
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 63,
+                  "endLine": 187,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 89,
+                  "endLine": 42,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 97,
+                  "endLine": 46,
+                  "endColumn": 119
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 97,
+                  "endLine": 49,
+                  "endColumn": 119
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'Single'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 113,
+                  "endLine": 42,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'Single'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInterceptorTransientErrors.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 121,
+                  "endLine": 49,
+                  "endColumn": 126
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'Single'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 59,
+                  "endLine": 33,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'Single'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/InstructorController.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 56,
+                  "endLine": 44,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2259",
+          "level": "warning",
+          "message": "'crs' is null on at least one execution path.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 24,
+                  "endLine": 214,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 83,
+                  "endLine": 16,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 82,
+                  "endLine": 17,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 79,
+                  "endLine": 18,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 82,
+                  "endLine": 19,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 73,
+                  "endLine": 20,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 80,
+                  "endLine": 21,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 79,
+                  "endLine": 22,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/DAL/SchoolInitializer.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 80,
+                  "endLine": 23,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 41,
+                  "endLine": 95,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 13,
+                  "endLine": 99,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 13,
+                  "endLine": 105,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 17,
+                  "endLine": 124,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 21,
+                  "endLine": 129,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 21,
+                  "endLine": 134,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 25,
+                  "endLine": 138,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 25,
+                  "endLine": 141,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 25,
+                  "endLine": 144,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 25,
+                  "endLine": 147,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 17,
+                  "endLine": 158,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+2 (incl 1 for nesting)",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 38,
+                  "endLine": 23,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 38,
+                  "endLine": 25,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 38,
+                  "endLine": 27,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 38,
+                  "endLine": 29,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 38,
+                  "endLine": 31,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 38,
+                  "endLine": 33,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 38,
+                  "endLine": 35,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 38,
+                  "endLine": 37,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 32,
+                  "endLine": 47,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 32,
+                  "endLine": 49,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 32,
+                  "endLine": 51,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 32,
+                  "endLine": 53,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 32,
+                  "endLine": 55,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 33,
+                  "endLine": 63,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 33,
+                  "endLine": 66,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 33,
+                  "endLine": 69,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Migrations/Configuration.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 33,
+                  "endLine": 72,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await GetDatabaseValuesAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 41,
+                  "endLine": 128,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await FindAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProject/ContosoUniversity/ContosoUniversity/Controllers/DepartmentController.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 35,
+                  "endLine": 149,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "Developers often use TODO tags to mark areas in the code where additional work or improvements are needed but are not implemented immediately. However, these TODO tags sometimes get overlooked or forgotten, leading to incomplete or unfinished code. This rule aims to identify and address unattended TODO tags to ensure a clean and maintainable codebase. This description explores why this is a problem and how it can be fixed to improve the overall code quality.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2259": {
+          "id": "S2259",
+          "shortDescription": "Null pointers should not be dereferenced",
+          "fullDescription": "Accessing a null value will always throw a NullReferenceException most likely causing an abrupt program termination.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2971": {
+          "id": "S2971",
+          "shortDescription": "LINQ expressions should be simplified",
+          "fullDescription": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable language integrated queries (LINQ) can be simplified. This not only improves readabilty but can also lead to improved performance.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3011": {
+          "id": "S3011",
+          "shortDescription": "Reflection should not be used to increase accessibility of classes, methods, or fields",
+          "fullDescription": "Altering or bypassing the accessibility of classes, methods, or fields through reflection violates the encapsulation principle. This can break the internal contracts of the accessed target and lead to maintainability issues and runtime errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3011",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4144": {
+          "id": "S4144",
+          "shortDescription": "Methods should not have identical implementations",
+          "fullDescription": "Two methods having the same implementation are suspicious. It might be that something else was intended. Or the duplication is intentional, which becomes a maintenance burden.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6580": {
+          "id": "S6580",
+          "shortDescription": "Use a format provider when parsing date and time",
+          "fullDescription": "When converting a string representation of a date and time to a DateTime object or any other temporal type with one of the available system parsing methods, you should always provide an IFormatProvider parameter.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6580",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

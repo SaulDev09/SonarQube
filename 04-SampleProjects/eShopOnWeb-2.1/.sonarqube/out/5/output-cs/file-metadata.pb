@@ -1,0 +1,11 @@
+í
+ÖC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\obj\Debug\netcoreapp2.1\FunctionalTests.Program.csutf-16•
+ôC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\obj\Debug\netcoreapp2.1\.NETCoreApp,Version=v2.1.AssemblyAttributes.csutf-8ñ
+äC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\obj\Debug\netcoreapp2.1\FunctionalTests.AssemblyInfo.csutf-8É
+zC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\OrderControllerIndex.csutf-8ã
+ÅC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\CustomWebApplicationFactory.csutf-8Ö
+|C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\CatalogControllerIndex.csutf-8á
+~C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\ApiCatalogControllerList.csutf-8|
+sC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\OrderIndexOnGet.csutf-8z
+qC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\HomePageOnGet.csutf-8ì
+âC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\CustomWebRazorPagesApplicationFactory.csutf-8

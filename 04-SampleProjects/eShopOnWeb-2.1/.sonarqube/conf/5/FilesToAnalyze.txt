@@ -1,0 +1,10 @@
+﻿C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\CustomWebRazorPagesApplicationFactory.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\HomePageOnGet.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\WebRazorPages\OrderIndexOnGet.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\ApiCatalogControllerList.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\CatalogControllerIndex.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\CustomWebApplicationFactory.cs
+C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\eShopOnWeb-2.1\tests\FunctionalTests\Web\Controllers\OrderControllerIndex.cs
+C:\Users\aneu_\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\aneu_\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\aneu_\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll

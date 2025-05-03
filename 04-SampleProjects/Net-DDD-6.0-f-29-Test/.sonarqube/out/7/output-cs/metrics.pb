@@ -1,0 +1,5 @@
+‡
+xC:\01S\03_c_ex\35-SonarQube\04-SampleProjects\Net-DDD-6.0-f-29-Test\Saul.Test.Application.Interface\IUsersApplication.csr		
+”
+|C:\01S\03_c_ex\35-SonarQube\04-SampleProjects\Net-DDD-6.0-f-29-Test\Saul.Test.Application.Interface\ICustomersApplication.csr	
+

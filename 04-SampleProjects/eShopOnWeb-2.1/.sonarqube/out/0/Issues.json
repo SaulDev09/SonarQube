@@ -1,0 +1,318 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.13.0.0",
+        "fileVersion": "4.13.0-3.25155.17 (398aa319)",
+        "semanticVersion": "4.13.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_paymentMethods' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Entities/BuyerAggregate/Buyer.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_uriComposer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Services/BasketService.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 39,
+                  "endLine": 15,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_itemRepository' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Services/BasketService.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 51,
+                  "endLine": 17,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2326",
+          "level": "warning",
+          "message": "'T' is not used in the interface.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Interfaces/IAppLogger.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 33,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3246",
+          "level": "warning",
+          "message": "Add the 'out' keyword to parameter 'T' to make it 'covariant'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Interfaces/IIdentityParser.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 38,
+                  "endLine": 5,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern. Add 'System.SerializableAttribute' attribute on 'BasketNotFoundException' because it implements 'ISerializable'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Exceptions/BasketNotFoundException.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Exceptions/BasketNotFoundException.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 12,
+                  "endLine": 5,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add 'System.SerializableAttribute' attribute on 'BasketNotFoundException' because it implements 'ISerializable'."
+            }
+          }
+        },
+        {
+          "ruleId": "S5332",
+          "level": "warning",
+          "message": "Using http protocol is insecure. Use https instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Services/UriComposer.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 40,
+                  "endLine": 14,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2259",
+          "level": "warning",
+          "message": "'existingItem' is null on at least one execution path.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/01S/03_c_ex/35-SonarQube/04-SampleProjects/eShopOnWeb-2.1/src/ApplicationCore/Entities/BasketAggregate/Basket.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S2259": {
+          "id": "S2259",
+          "shortDescription": "Null pointers should not be dereferenced",
+          "fullDescription": "Accessing a null value will always throw a NullReferenceException most likely causing an abrupt program termination.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2326": {
+          "id": "S2326",
+          "shortDescription": "Unused type parameters should be removed",
+          "fullDescription": "Type parameters that aren’t used are dead code, which can only distract and possibly confuse developers during maintenance. Therefore, unused type parameters should be removed.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2326",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3246": {
+          "id": "S3246",
+          "shortDescription": "Generic type parameters should be co/contravariant when possible",
+          "fullDescription": "In the interests of making code as usable as possible, interfaces and delegates with generic parameters should use the out and in modifiers when possible to make the interfaces and delegates covariant and contravariant, respectively.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3246",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3925": {
+          "id": "S3925",
+          "shortDescription": "\"ISerializable\" should be implemented correctly",
+          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard-to-detect bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5332": {
+          "id": "S5332",
+          "shortDescription": "Using clear-text protocols is security-sensitive",
+          "fullDescription": "Clear-text protocols such as ftp, telnet, or http lack encryption of transported data, as well as the capability to build an authenticated connection. It means that an attacker able to sniff traffic from the network can read, modify, or corrupt the transported content. These protocols are not secure as they expose applications to an extensive range of risks:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5332",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
